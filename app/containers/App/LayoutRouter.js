@@ -21,6 +21,8 @@ function LayoutRouter(props) {
   );
 }
 
+// Phương test
+
 const mapStateToProps = state => ({
   resultRedirect: state.signin.resultRedirect,
 });
